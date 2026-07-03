@@ -1,2 +1,3 @@
 # motecms
-An ultra-lightweight CMS for low-bandwidth and constrained networks
+It is an ultra-lightweight, server-rendered CMS designed for low-bandwidth and delay-tolerant networks.
+Plain HTML, minimal CSS, optional JavaScript, and no unnecessary bytes.
