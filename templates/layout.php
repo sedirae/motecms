@@ -1,0 +1,2 @@
+<?php declare(strict_types=1); use function MoteCMS\e; ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($title) ?> - <?= e($siteName) ?></title><link rel="stylesheet" href="<?= e($basePath) ?>/assets/style.css"></head><body><div class="site"><?php require __DIR__ . '/sidebar.php'; ?><div class="main"><?php require __DIR__ . '/header.php'; ?><main id="content" class="content"><?= $contentHtml ?></main><?php require __DIR__ . '/footer.php'; ?></div></div></body></html>
